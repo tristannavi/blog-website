@@ -20,5 +20,5 @@ app.listen(3000, function() {
 });
 
 app.get("/home", (req, res) => {
-    res.render("home")
+    res.render("home", {homeStartingContent})
 })
